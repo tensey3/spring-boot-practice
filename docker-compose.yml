@@ -22,7 +22,7 @@ services:
       - ./docker/mysql/data:/var/lib/mysql # 実データの永続化
       - ./docker/mysql/log:/var/log/mysql # logの永続化
     ports:
-      - 3306:3306
+      - 3336:3306
   dbclient:
     image: phpmyadmin/phpmyadmin
     container_name: spring_phpmyadmin
