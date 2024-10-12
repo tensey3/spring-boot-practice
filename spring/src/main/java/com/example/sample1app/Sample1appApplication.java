@@ -11,7 +11,7 @@ public class Sample1appApplication {
 
   @RequestMapping("/")
   public String home() {
-    return "Hello Worlds";
+    return "Hello branch master";
   }
 
   @RequestMapping("/men")
