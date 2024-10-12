@@ -14,6 +14,15 @@ public class Sample1appApplication {
     return "Hello Worlds";
   }
 
+  @RequestMapping("/men")
+  public String men() {
+    return "Hello mens world";
+  }
+
+  @RequestMapping("/human")
+  public String human() {
+    return "Hello mens HUMAN";
+  }
   public static void main(String[] args) {
     SpringApplication.run(Sample1appApplication.class, args);
   }
